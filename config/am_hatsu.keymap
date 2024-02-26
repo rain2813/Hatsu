@@ -35,10 +35,10 @@
 // -----------------------------------------------------------------------------------------------------------------------------------
 // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                                   |  Y   |  U    |  I    |  O   |   P   |   \   |
 // |  TAB  |  A  |  S  |  D   |  F   |  G   |                                   |  H   |  J    |  K    |  L   |   ;   |   '   |
-// | CTRL  |  Z  |  X  |  C   |  V   |  B   |        						    |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-// |             | GUI |  ~   |SHIFT | SPACE|                 				    | ENTER| BSPC  |   -   |  =   | 
-// |             |            | CTRL |  DEL |            			            | HOME |  CTRL | 
-// |             |            |  ALT | LEFT |									|  END |  ALT |
+// | CTRL  |  Z  |  X  |  C   |  V   |  B   |        				|  N   |  M    |  ,    |  .   |   /   | SHIFT |
+// |             | GUI |  ~   |SHIFT | SPACE|                 			| ENTER| BSPC  |   -   |  =   | 
+// |             |            | CTRL |  DEL |            			| HOME |  CTRL | 
+// |             |            |  ALT | LEFT |					|  END |  ALT |
             bindings = <		
 &lt 3 ESC      &kp Q  &kp W    &kp E     &kp R       &kp T                   &kp Y       &kp U     &kp I     &kp O    &kp P    &kp BSLH
 &lt 2 TAB      &kp A  &kp S    &kp D     &kp F       &kp G                   &kp H       &kp J     &kp K     &kp L    &kp SEMI &kp SQT
