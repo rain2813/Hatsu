@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: AM-Hatsu_left
+    shield: AM_Hatsu_left
   - board: nice_nano_v2
-    shield: AM-Hatsu_right
+    shield: AM_Hatsu_right
   - board: nice_nano_v2
     shield: settings_reset
