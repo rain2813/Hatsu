@@ -44,8 +44,8 @@
 &lt 2 TAB      &kp A  &kp S    &kp D     &kp F       &kp G                   &kp H       &kp J     &kp K     &kp L    &kp SEMI &kp SQT
 &mt LCTRL CAPS &kp Z  &kp X    &kp C     &kp V       &kp B                   &kp N       &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                       &kp LGUI &kp GRAVE &lt 1 LSHFT &kp SPACE               &mo ENTER   &kp BSPC  &kp MINUS  &kp EQUAL
-								     &mt LCTRL C     &kp DEL                 &kp HOME    &mt RCTRL V
-									 &lt 2 ALT       &lt 1 LEFT              &lt 1 END   &lt 2 ALT              
+					 &mt LCTRL C  &kp DEL                &kp HOME    &mt RCTRL V
+					 &lt 2 LALT   &kp LEFT               &lt 1 END   &lt 2 RALT              
             >;
         };  
 
