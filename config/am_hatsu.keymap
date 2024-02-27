@@ -68,7 +68,8 @@
                     &trans    &trans      &kp LBKT  &kp RBKT                  &kp LBRC  &kp RBRC    &trans          &trans
 					  &trans    &trans		      &trans   &trans
 					  &trans    &trans 		      &trans   &trans
-        };
+            >;
+        };  
 
         symbol_layer {
             label = "SYMBOL";
