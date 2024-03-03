@@ -43,7 +43,7 @@
 &lt 3 ESC      &kp Q  &kp W    &kp E     &kp R       &kp T                   &kp Y       &kp U     &kp I     &kp O    &kp P    &kp BSLH
 &lt 2 TAB      &kp A  &kp S    &kp D     &kp F       &kp G                   &kp H       &kp J     &kp K     &kp L    &kp SEMI &kp SQT
 &mt LCTRL CAPS &kp Z  &kp X    &kp C     &kp V       &kp B                   &kp N       &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-                      &kp LGUI &kp GRAVE &lt 1 LSHFT &kp SPACE               &mo ENTER   &kp BSPC  &kp MINUS  &kp EQUAL
+                      &kp LGUI &kp GRAVE &lt 1 LSHFT &kp SPACE               &kp ENTER   &kp BSPC  &kp MINUS  &kp EQUAL
 					 &mt LCTRL C  &lt 3 DEL              &lt 3 HOME  &mt RCTRL V
 					 &lt 2 LALT   &kp LEFT               &lt 1 END   &lt 2 RALT              
             >;
@@ -97,18 +97,18 @@
             label = "HOTKEY";
 			
 // ------------------------------------------------------------------------------------------------------------
-// |BTCLR | BT1   | BT2   |  BT3  |  BT4  |  BT5  |                |      |      |       |      |       |       |
-// |      |RGB减色 |RGB增色|RGB减饱|RGB增饱 |RGB特效|                |      |      |       |      |       |       |
-// |      |RGB减亮 |RGB增亮|       |       |       |                |      |      |       |      |       |       |
-// |               | 	  |       |       |RGB开关|                |      |      |       |      |
+// |BTCLR | BT1   | BT2   |  BT3  |  BT4  |  BT5  |                |      |  7   |   8   |   9  |       | BTCLR |
+// |      |RGB减色 |RGB增色|RGB减饱|RGB增饱 |RGB特效|                |      |  4   |   5   |   6  |       |       |
+// |      |RGB减亮 |RGB增亮|       |       |       |                |      |  1   |   2   |   3  |       |       |
+// |               | 	  |       |       |RGB开关|                 |      |      |   0   |   .  |
 //                                |       |       |                |      |      |    
 //                                |       |       |                |      |      |   
 
             bindings = <
-&bt BT_CLR     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                &none &none &none &none &none &none
-&none          &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF             &none &none &none &none &none &none
-&none          &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none           &none           &none                       &none &none &none &none &none &none
-             		       &none           &none           &none           &rgb_ug RGB_TOG             &none &none &none &none
+&bt BT_CLR     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                &none &kp N7  &kp N8  &kp N9  &none  &bt BT_CLR
+&none          &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF             &none &kp N4  &kp N5  &kp N6  &none  &none
+&none          &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none           &none           &none                       &none &kp N1  &kp N2  &kp N3  &none  &none
+             		       &none           &none           &none           &rgb_ug RGB_TOG             &none &none   &kp N0  &kp DOT
 			       &none           &none 			                                   &none &none
 			       &none	       &none 			                                   &none &none 
                                                                                            
