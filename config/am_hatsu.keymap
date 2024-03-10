@@ -14,6 +14,7 @@
 
 / {
     macros {
+
     layer_s: layer_s {
 	    label = "layer shift color";
 	    compatible = "zmk,behavior-macro";
@@ -74,19 +75,15 @@
 	};
     };
 
+
+
 #define DEFAULT 0
 #define NUMBER  1
 #define SYMBOL  2
 #define HOTKEY  3
 
 
-
-
-/ {
-
   
-
-    
 
 
      keymap {
