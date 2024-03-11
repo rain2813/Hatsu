@@ -76,6 +76,50 @@
 	};
     };
 
+    behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
+	aa: aa {
+            compatible = "zmk,behavior-tap-dance";
+            label = "select all";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp A>, <&kp LG(A)>;
+        };
+
+        cc: cc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "copy";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp C>, <&kp LG(C)>;
+        };
+
+        cv: cv {
+            compatible = "zmk,behavior-tap-dance";
+            label = "paste";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp V>, <&kp LG(V)>;
+        };
+
+        cx: cx {
+            compatible = "zmk,behavior-tap-dance";
+            label = "cut";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp X>, <&kp LG(X)>;
+        };
+	
+    };
 
 
 #define DEFAULT 0
