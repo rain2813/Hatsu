@@ -1,13 +1,13 @@
 #include <dt-bindings/led/led.h>
 
 &pinctrl {
-    spi1_default: spi1_default {
+    spi3_default: spi3_default {
         group1 {
             psels = <NRF_PSEL(SPIM_MOSI, 0, 6)>;
         };
     };
 
-    spi1_sleep: spi1_sleep {
+    spi3_sleep: spi3_sleep {
         group1 {
             psels = <NRF_PSEL(SPIM_MOSI, 0, 6)>;
             low-power-enable;
@@ -16,7 +16,7 @@
 };
 
 
-&spi1 {
+&spi3 {
 	compatible = "nordic,nrf-spim";
 	/* Cannot be used together with i2c0. */
 	status = "okay";
