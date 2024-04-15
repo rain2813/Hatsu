@@ -8,7 +8,7 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
 
 endif
 
-if SHIELD_AM_HATSU_LEFT || SHIELD_AM_HATSU_RIGHT
+if SHIELD_AM_HATSU_LEFT 
 
 config ZMK_SPLIT
     default y
