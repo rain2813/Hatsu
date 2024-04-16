@@ -1,7 +1,7 @@
 if SHIELD_AM_HATSU_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Am-Hatsu"
+	default "AM-HATSU"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
