@@ -157,10 +157,10 @@
             // |             |            |  ALT | LEFT |					|  END |  ALT |
 
             bindings = <
-&lt 3 ESC       &kp Q         &kp W         &kp E      &kp R        &kp T
-&lt 4 TAB       &kp A         &kp S         &kp D      &kp F        &kp G
-&mt LCTRL CAPS  &kp Z         &kp X         &kp C      &kp V        &kp B
-&layer_s        &kp NUMBER_2  &kp NUMBER_1  &kp SPACE  &lt 1 GRAVE  &layer_3
+&lt 3 ESC       &kp Q      &kp W         &kp E         &kp R        &kp T
+&lt 4 TAB       &kp A      &kp S         &kp D         &kp F        &kp G
+&mt LCTRL CAPS  &kp Z      &kp X         &kp C         &kp V        &kp B
+&layer_s        &kp SPACE  &kp NUMBER_1  &kp NUMBER_2  &lt 1 GRAVE  &layer_3
                                                        &mt LALT T   &layer_2
             >;
         };
