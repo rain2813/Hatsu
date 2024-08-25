@@ -85,6 +85,56 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+
+        left_bkt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <3 4>;
+        };
+
+        right_bkt {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <26 27>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <30 31>;
+        };
+
+        less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <15 16>;
+        };
+
+        great_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <18 19>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <15 20>;
+        };
+
+        back_slash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <3 8>;
+        };
+    };
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
