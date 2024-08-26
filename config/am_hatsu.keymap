@@ -198,10 +198,10 @@
             // |             |            |  ALT | LEFT |					|  END |  ALT |
 
             bindings = <
-&lt 3 ESC        &kp Q           &kp W           &kp E        &kp R             &kp T        &kp Y        &kp U              &kp I        &kp O        &kp P               &kp MINUS
-&kp GRAVE        &hm A LEFT_GUI  &hm S LEFT_ALT  &hm D LCTRL  &hm F LEFT_SHIFT  &kp G        &kp H        &hm J RIGHT_SHIFT  &hm K RCTRL  &hm L RCTRL  &hm SEMI RIGHT_GUI  &kp SQT
-&kp LEFT_SHIFT   &kp Z           &kp X           &kp C        &kp V             &kp B        &kp N        &kp M              &kp COMMA    &kp DOT      &kp FSLH            &kp RSHFT
-&lt 4 BACKSPACE  &mo 1           &kp END         &kp HOME     &kp LBKT          &kp BSLH     &kp EQUAL    &kp RBKT           &kp MINUS    &kp EQUAL    &mo 2               &lt 5 DEL
+&lt 3 ESC        &kp Q           &kp W           &kp E        &kp R             &kp T        &kp Y        &kp U              &kp I        &kp O            &kp P               &kp MINUS
+&kp GRAVE        &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G        &kp H        &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI  &kp SQT
+&kp LEFT_SHIFT   &kp Z           &kp X           &kp C        &kp V             &kp B        &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp RSHFT
+&lt 4 BACKSPACE  &mo 1           &kp END         &kp HOME     &kp LBKT          &kp BSLH     &kp EQUAL    &kp RBKT           &kp MINUS    &kp EQUAL        &mo 2               &lt 5 DEL
                                                               &lt 1 TAB         &lt 6 SPACE  &lt 6 SPACE  &lt 2 ENTER
             >;
         };
