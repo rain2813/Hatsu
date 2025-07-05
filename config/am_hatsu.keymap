@@ -133,14 +133,7 @@
 #define SYMBOL  2
 #define HOTKEY  3
 
-    combos {
-        compatible = "zmk,combos";
-
-        DF {
-            bindings = <&kp NUMBER_1>;
-            key-positions = <9 10>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
